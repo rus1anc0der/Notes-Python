@@ -11,6 +11,3 @@ class Note:
         self.text_notes = text_notes
         self.date_of_change = datetime.now().strftime("%d/%m/%y %I:%M")
         self.title = title
-
-    def getText(self):
-        return self.text_notes

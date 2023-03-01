@@ -1,6 +1,5 @@
 from datetime import datetime
 from pprint import pprint
-
 from Note import Note
 from createNote import CreateNote
 
@@ -70,7 +69,6 @@ def nextMenu():
                 pprint(note.data['Notes'])
             case 4:
                 menu()
-
 
 
 menu()
